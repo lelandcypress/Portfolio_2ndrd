@@ -4,67 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel = "stylesheet" href ="Professional_Portfolio_Rel2/assets/style.css" >
+    <link rel = "stylesheet" href ="./assets/reset.css" >
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-      crossorigin="anonymous"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+    crossorigin="anonymous"
     />
+    <link rel = "stylesheet" href ="./assets/style.css" >
     <title>Michael Souter</title>
 
 </head>
-<body class = "border container-fluid" >
+<body class = "container-fluid" >
 <div class = "row">
    
-<div id = "hero"  class = "border">
-    <img src= "Professional_Portfolio_Rel2/assets/hero.JPG">
-    <h1>Michael Souter</h1>
+<div id = "hero"  class = "p-0">
+    <img class= "img-fluid pic" src ="assets/img/hero.JPG">
+    <h1 class= "hero-text-mobile">Michael Souter</h1>
 </div>
  
     </div>
 
 
-<div class = "row border">
+<div class = "row">
 
     <!--Side Nav Bar-->
-    <aside class = "col-2 border">
-        <div class = "border" >About Me</div>
-        <div class = "border">My Projects</div>
-        <div class = "border">Contact Me</div>
+    <aside class = "col-3 mx-0 px-0">
+        <div id= "aboutBtn" class = "my-5 p-0">About Me</div>
+        <div id ="projectBtn" class = "my-5">My Projects</div>
+        <div id = "contactBtn" class = "my-5">Contact Me</div>
     </aside>
         <!--Main Content-->
-    <section class = "col-10 border">
-        <div id= "about-me" class = "border">
-        <h3>About Me</h3>
-           
-        <p>I am a  Front end developer eager to  develop high quality solutions for my clients. I have many years of leadership experience, be it leading Marines or guiding my clients through challenging milestones. My background as a Project Manager has honed my communication and collaborative skills.
- I am currently enrolled in Full Stack Coding Bootcamp from Southern Methodist University, where I have developed a strong understanding of HTML, CSS, JavaScript, jQuery, and SQL. I single handedly developed a fully functional weather tracker leveraging Local Storage, an API call with two endpoints.  I am eager to join your team and contribute my knowledge and experience.
+    <section class = "col-9 px-0">
+        <div id= "about-me">
+                   
+        <p>I am a  Front end developer with a background in project management. I specialize in JavaScript and JS Frameworks, but I am also proficient in APIs and SQL. I am eager to join your team and contribute my knowledge and experience.
+        <a href = "https://docs.google.com/document/d/1XPVAQpQB4hgpaJRIHCwU_KZoouu7hIoP/edit?usp=drive_web&ouid=100995461878575873701&rtpof=true"><h6>Resume</h6></a>
 </p>
-<ul>Skills</ul> 
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
-<li>jQuery</li>
-<li>Bootstrap</li>
-<li>APIs</li>
+
+
 </div>
-<div id ="projects" class = "border" >lorem</div>
-<div id ="contact-me" class = "border">Placeholder</div>
+<div id ="projects" class ="hide">
+         
+    <article class= "smaller-projects"> <!--Deployed Projects-->
+             <!--Prework-->
+        <figure> 
+            <figcaption class ="fig-mobile">Dinner and Drinks</figcaption> 
+           <a href="https://github.com/lelandcypress/What-is-for-dinner"><img class="projlogo img-fluid" src= "./assets/img/Protein-Card.png"> </a>
+
+        </figure>
+              <!--Fan Page--> 
+        <figure> 
+            <figcaption class ="fig-mobile">Jacobs Weather</figcaption>    
+           <a href="https://github.com/lelandcypress/Jacobs_Weather"><img class="projlogo img-fluid" src="./assets/img/5-day-forecast.png"> </a> 
+        </figure> 
+             <!--Scratch Project-->
+        <figure> 
+            <figcaption class ="fig-mobile">Daily Planner</figcaption> 
+           <a href="https://github.com/lelandcypress/Daily-Planner"><img class="projlogo img-fluid" src="./assets/img/OpeningPage.png"></a>
+        </figure>
+        <figure> 
+            <figcaption class ="fig-mobile">Code Quiz</figcaption> 
+           <a href="https://github.com/lelandcypress/Coding-Quiz"><img class="projlogo img-fluid" src="./assets/img/Questions-Timer.png"></a>
+        </figure>
+
+<a href = "https://github.com/lelandcypress" target= "none"><h6>GitHub</h6></a>
+
+
+</div>
+<div id ="contact-me" class ="hide">
+<p>Interested in working together? Here is the best way to get in touch. I look forward to hearing from you.</p>
+
+        
+            <p class ="float-left"><a href="https://www.linkedin.com/in/michael-souter-3a61953b/">Linkedin</a></p>
+                         
+            <p><a href="mailto: souterm1@gmail.com">Email</a></p>
+
+
 
     </section>
-</div>
-
-
-
-    
-</div>
-
+   </div>
    <script
       src="https://code.jquery.com/jquery-3.6.0.js"
       integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
       crossorigin="anonymous"
     ></script> 
-    <script src ="./Professional_Portfolio_Rel2/assets/script.js"></script>  
+    <script src ="./assets/script.js"></script>  
 </body>
 </html>
