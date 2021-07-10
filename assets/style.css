@@ -37,19 +37,17 @@ li {
   padding: 3px;
   align-items: center;
 }
-.navButtons {
+.buttons {
   cursor: pointer;
+  justify-content: center;
 }
-.navButtons:hover {
+.buttons:hover {
   color: rgb(253, 253, 253);
 }
-.navButtons:active {
+.buttons:active {
   font-size: 95%;
 }
 
-.projlogo:hover {
-  opacity: 0.6;
-}
 @media only screen and (min-width: 1000px) {
   body {
     font-size: 24px;
